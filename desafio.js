@@ -1,4 +1,4 @@
-let herois = [["Maria", 11000],
+let herois = [["Maria", 1000],
 ["pedro", 8000],
 ["andreia", 9000]]
 
@@ -14,12 +14,12 @@ if(herois[0][1]<= 1000){
     
    else if(5000>= herois[0][1] && herois[0][1]>= 2001){
   
-        console.log("Parabéns " + herois[0][0]+" voçe está no nivel prata") }
+ console.log("Parabéns " + herois[0][0]+" voçe está no nivel prata") }
 
         
-        else if(8000>= herois[0][1] && herois[0][1]>= 7001){
+ else if(8000>= herois[0][1] && herois[0][1]>= 7001){
   
-            console.log("Parabéns " + herois[0][0]+" voçe está no nivel platina") }
+ console.log("Parabéns " + herois[0][0]+" voçe está no nivel platina") }
 
 else if(9000>= herois[0][1] && herois[0][1]>= 8001){
   
